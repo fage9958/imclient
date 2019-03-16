@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>destination</key>
+	<string>export</string>
+	<key>iCloudContainerEnvironment</key>
+	<string>Production</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://raw.githubusercontent.com/fage9958/imclient/master/ios/Telegraph.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://raw.githubusercontent.com/fage9958/imclient/master/ios/image.57x57.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://raw.githubusercontent.com/fage9958/imclient/master/ios/image.512x512.png</string>
+	</dict>
+	<key>method</key>
+	<string>enterprise</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>im.togo.app.imclient</key>
+		<string>TogoIM-iOS</string>
+		<key>im.togo.app.imclient.shared</key>
+		<string>TogoIM-iOS-Shared</string>
+		<key>im.togo.app.imclient.siri.intents</key>
+		<string>TogoIM-iOS-Siri</string>
+		<key>im.togo.app.imclient.watch</key>
+		<string>TogoIM-iOS-Watch</string>
+		<key>im.togo.app.imclient.watch.ext</key>
+		<string>TogoIM-iOS-Watch-Ext</string>
+		<key>im.togo.app.imclient.widget</key>
+		<string>TogoIM-iOS-Widget</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Distribution</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>DN7LC59DUC</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
